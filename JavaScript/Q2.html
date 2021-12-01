@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Question 2- Simple Form</title>
+    <script>
+                 function myFunction1(x) {
+        
+        x.style.background="blue";
+    
+    }
+      
+    </script>
+</head>
+
+<body>
+    
+    <table  cellpadding ="8" width="600" style="border: 1px; background-color: cadetblue;text-align: center; margin-left: 300px;">
+        
+        <div style="text-align: center;">
+        
+            <caption style="text-align: center;">
+        
+                <h1> Registration Form</h1>
+        </caption>
+        <form name="regform">
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="fname" id="fname" size="30" placeholder="Enter your first name"
+                    tabindex="1" onclick="myFunction1(this)" autofocus onblur="validateFirstName()"
+                    onfocus="clearMessage()">
+                    
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lname" id="lname" size="30" placeholder="Enter your last name"
+                    tabindex="2"  onclick="myFunction1(this)" style="border-color: darkred;" required>
+                </td>
+            </tr>
+
+            <td>Education</td>
+                <td>
+                    <input type="checkbox" name="edu1" id="edu1" value="Graduate"
+                    tabindex="6" style="border-color: darkred;"  required>Graduate
+                    <input type="checkbox" name="edu2" id="edu2" value=" Post Graduate"
+                    tabindex="7" style="border-color: darkred;"  > Post Graduate
+                </td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="GenderM" id="GenderM" value="Male"
+                tabindex="8" style="border-color: darkred;"  >Male
+               
+                <input type="radio" name="GenderF" id="GenderF" value=" Female"
+                tabindex="9" style="border-color: darkred;"  r> Female
+            </td>
+    </tr>
+    <tr>
+        <td>Enter Your Comments</td>
+        <td>
+        <textarea rows="5" cols="30" wrap="hard" onclick="myFunction1(this)" tabindex="10"></textarea>
+        </td>
+</tr>
+<tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td>
+            <input type="date" name="dob" id="dob" tabindex="14">
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Email Address</td>
+        <td>
+            <input type="email" name="email" id="email" onclick="myFunction1(this)" tabindex="16" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Contact number</td>
+        <td>
+            <input type="tel" name="contact" id="contact" onclick="myFunction1(this)" tabindex="18" pattern="[0-9]{4}-[0-9]{6}"required>
+        </td>
+    </tr>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+Nov 30, 2021 10:33:38.894 NEW SESSION
+Nov 30, 2021 10:33:38.894 [24504:20980:1130/103338.891:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Nov 30, 2021 10:33:38.894 [24504:20980:1130/103338.891:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Nov 30, 2021 10:33:38.894 [24504:20980:1130/103338.891:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Nov 30, 2021 10:33:38.895 [24504:20980:1130/103338.892:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Nov 30, 2021 10:33:38.905 [24504:26544:1130/103338.904:ERROR:device_event_log_impl.cc(214)] [10:33:38.905] USB: usb_service_win.cc:392 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 30, 2021 10:33:38.906 [24504:26544:1130/103338.905:ERROR:device_event_log_impl.cc(214)] [10:33:38.905] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 30, 2021 12:14:54.97 [26124:25000:1130/121454.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Nov 30, 2021 12:14:54.99 [26124:25000:1130/121454.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Nov 30, 2021 12:14:54.100 [26124:25000:1130/121454.097:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Nov 30, 2021 12:14:54.103 [26124:25000:1130/121454.098:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Nov 30, 2021 12:14:54.104 [26124:12688:1130/121454.098:ERROR:device_event_log_impl.cc(214)] [12:14:54.098] USB: usb_service_win.cc:392 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Nov 30, 2021 12:14:54.105 [26124:12688:1130/121454.099:ERROR:device_event_log_impl.cc(214)] [12:14:54.099] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Nov 30, 2021 13:53:35.620 [26124:12688:1130/135335.618:ERROR:device_event_log_impl.cc(214)] [13:53:35.617] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
+Nov 30, 2021 14:00:16.988 [26124:12688:1130/140016.988:ERROR:device_event_log_impl.cc(214)] [14:00:16.987] USB: usb_service_win.cc:261 Failed to get device driver name: Element not found. (0x490)
